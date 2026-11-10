@@ -47,7 +47,6 @@ output/playwright/
 
 # IDE
 .idea/
-.vscode/
 .cursor/
 .codex/
 *.swp
@@ -58,8 +57,6 @@ output/playwright/
 Thumbs.db
 
 # Environment
-.env
-.env.*
 !.env.example
 .worktrees/
 .venv
@@ -94,3 +91,5 @@ dashboard/.impeccable/hook.cache.json
 
 # Scratch pull-request description written by the stacked-PR tooling.
 /pr-body.md
+config.bat
+node_modules
